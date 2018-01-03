@@ -86,11 +86,7 @@ source $ZSH/oh-my-zsh.sh
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
-#
-# Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
-alias ls='ls -F --color=always'
-alias dir='dir -F --color=always'
-alias grep='grep --color=auto -in'
-alias ll="ls -ahl"
+
+if [ -f ~/.aliases ]; then
+    source ~/.aliases
+fi

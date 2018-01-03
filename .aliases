@@ -1,0 +1,17 @@
+#Shell
+alias ls='ls -F --color=always'
+alias dir='dir -F --color=always'
+alias grep='grep --color=auto -in'
+alias ll="ls -ahl"
+
+#Symfony Aliases
+alias sf="bin/console"
+alias sf-run="bin/console server:run"
+alias sf-debug-router="bin/console debug:router"
+alias sf-clear-test-cache="bin/console cache:clear --env=test"
+alias sf-clear-prod-cache="bin/console cache:clear --env=prod"
+alias sf-clear-dev-cache="bin/console cache:clear --env=dev"
+
+#Behat
+alias bh="vendor/bin/behat"
+
