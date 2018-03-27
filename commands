@@ -1,0 +1,2 @@
+#activate natural scrolling on Synaptic Forcepad
+synclient VertScrollDelta=-108 HorizScrollDelta=-108
