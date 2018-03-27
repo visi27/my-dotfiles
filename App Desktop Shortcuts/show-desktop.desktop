@@ -1,0 +1,4 @@
+[Desktop Entry]
+Type=Application
+Name=Show-Desktop
+Exec=wmctrl -k on

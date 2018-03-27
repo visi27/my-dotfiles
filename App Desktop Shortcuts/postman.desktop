@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Name=Postman
+Comment=Postman Native App
+Exec=/home/evis/Postman/Postman
+Icon=/home/evis/Postman/resources/app/assets/icon.png
+Terminal=false
+Type=Application
+Categories=Dev
