@@ -94,3 +94,6 @@ source $ZSH/oh-my-zsh.sh
 if [ -f ~/.aliases ]; then
     source ~/.aliases
 fi
+
+# thefuck alias
+eval $(thefuck --alias)
