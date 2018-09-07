@@ -11,7 +11,13 @@ alias sf-debug-router="bin/console debug:router"
 alias sf-clear-test-cache="bin/console cache:clear --env=test"
 alias sf-clear-prod-cache="bin/console cache:clear --env=prod"
 alias sf-clear-dev-cache="bin/console cache:clear --env=dev"
+alias sf-clear-caches="bin/console cache:clear --env=dev && bin/console cache:clear --env=prod && bin/console cache:clear --env=test"
 
 #Behat
 alias bh="vendor/bin/behat"
 
+#Docker
+alias dc-up="docker-compose up"
+
+#Swagger
+alias swagger="docker run --rm -it -e GOPATH=$HOME/go:/go -v $HOME:$HOME -w $(pwd) quay.io/goswagger/swagger"
